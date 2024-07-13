@@ -16,7 +16,7 @@ public class MyController {
   //=======================================================================
   //@Autowired
   public MyController(MyServiceInterface myService) {
-    System.out.println("MyController(MyService myService)");
+    System.out.println("MyController(MyServiceInterface myService)");
     this.myService = myService;
   }
 
